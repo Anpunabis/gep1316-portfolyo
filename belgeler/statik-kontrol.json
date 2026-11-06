@@ -1,0 +1,14 @@
+{
+  "html_sayisi": 11,
+  "yerel_baglantilar": "Tümü dosya ve varsa bölüm kimliği ile doğrulandı",
+  "kontrast": {
+    "light": {
+      "ink": 17.18,
+      "muted": 7.18
+    },
+    "dark": {
+      "ink": 16.39,
+      "muted": 9.08
+    }
+  }
+}

@@ -47,12 +47,12 @@ Aşağıdaki altı kayıt, ilk kullanıcı talebini yerine getirmek için izlene
 
 **Karar ve gerekçe:** İlk hali reddet/düzelt: düzeltme sonrası odak gezintiye geçti, Escape düğmeye döndürdü.
 
-## 6. Kanıt ve teslim
-**Çalışma istemi:** Üç ekran boyutunu, form hatalarını ve demoları test et; rapor ve yayın dosyalarını hazırla.
+## 6. Kanıt ve yayın
+**Çalışma istemi:** Üç ekran boyutunu test et, belgeleri hazırla ve kullanıcı girişinden sonra GitHub Pages ile yayınla.
 
-**YZ yanıtı/uygulama:** 33 yerleşim ölçümü, gerçek ekran görüntüleri, form testleri ve 3 sayfalık rapor hazırlandı.
+**YZ yanıtı/uygulama:** 33 yerleşim ölçümü ve 3 sayfalık rapor hazırlandı. Site Anpunabis/gep1316-portfolyo deposundan yayınlandı.
 
-**Karar ve gerekçe:** Kabul: teknik kanıtlar dosyalandı. GitHub oturumu olmadığı için yayında denmedi.
+**Karar ve gerekçe:** Kabul: canlı sayfa ve etkileşimleri tarayıcıda doğrulandı; gerçek adres README belgesine eklendi.
 
 ## Kanıtlanmış erişilebilirlik eksikliği
 

@@ -6,7 +6,7 @@ Jahan Teymurlu | Dijital Oyun Tasarımı | GEP1316 | 06.11.2026
 
 Hedef kitle, öğrencinin çalışmalarını görmek isteyen öğretmen ve oyun tasarımıyla ilgilenen ziyaretçiler. Siyah-beyaz palet, proje görsellerinin önüne geçmiyor. Başlıklarda Georgia/Times New Roman, metinde Arial kullanıldı; fontlar cihazdan geliyor. Dört ana sayfa aynı gezintiyi, altbilgiyi ve CSS/JS dosyalarını paylaşıyor. Masaüstünde iki sütunlu proje düzeni, telefonda tek sütuna dönüşüyor. JT avatarı ve şemalar yerel SVG; gerçek oyun görüntüsü gibi sunulmuyor.
 
-GitHub Pages yayını henüz yapılmadı. Mevcut Unity depolarının GEP1316 Ödev 1–6 karşılıkları doğrulanmadı. Altı geliştirme istemi ayrı öğrenci mesajları değildir; kişisel prompt günlüğü öğrenci kontrolü bekler.
+Yayında: https://anpunabis.github.io/gep1316-portfolyo/ — 06.11.2026 tarihinde tarayıcıda doğrulandı. Mevcut Unity depolarının GEP1316 Ödev 1–6 karşılıkları doğrulanmadı. Altı geliştirme istemi ayrı öğrenci mesajları değildir; kişisel prompt günlüğü öğrenci kontrolü bekler.
 
 ## 2. YZ ile çalışma
 
@@ -40,11 +40,11 @@ Yanıt: İlk sürümde Tab menü bağlantılarını atladı. Açılışta ilk ba
 
 Karar: İlk hali reddet/düzelt: düzeltme sonrası odak gezintiye geçti, Escape düğmeye döndürdü.
 
-6. Kanıt ve teslim: Üç ekran boyutunu, form hatalarını ve demoları test et; rapor ve yayın dosyalarını hazırla.
+6. Kanıt ve yayın: Üç ekran boyutunu test et, belgeleri hazırla ve kullanıcı girişinden sonra GitHub Pages ile yayınla.
 
-Yanıt: 33 yerleşim ölçümü, gerçek ekran görüntüleri, form testleri ve 3 sayfalık rapor hazırlandı.
+Yanıt: 33 yerleşim ölçümü ve 3 sayfalık rapor hazırlandı. Site Anpunabis/gep1316-portfolyo deposundan yayınlandı.
 
-Karar: Kabul: teknik kanıtlar dosyalandı. GitHub oturumu olmadığı için yayında denmedi.
+Karar: Kabul: canlı sayfa ve etkileşimleri tarayıcıda doğrulandı; gerçek adres README belgesine eklendi.
 
 ## 3. Test ve erişilebilirlik
 

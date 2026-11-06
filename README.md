@@ -4,11 +4,12 @@ Dijital Oyun Tasarımı · GEP1316 · Ara Değerlendirme Ödevi 2
 
 ## Yayın durumu
 
-**GitHub Pages yayını henüz yapılmadı.** Aşağıdaki adres yayın hedefidir; doğrulanmış canlı site bağlantısı değildir:
+**GitHub Pages yayını tamamlandı ve canlı site tarayıcıda doğrulandı.**
 
-`https://anpunabis.github.io/gep1316-portfolyo/`
+- Canlı site: https://anpunabis.github.io/gep1316-portfolyo/
+- Kaynak depo: https://github.com/Anpunabis/gep1316-portfolyo
 
-Hedef depo: `https://github.com/Anpunabis/gep1316-portfolyo` (oluşturulması gerekiyor). GitHub profili ve üç mevcut proje deposu tarayıcıda doğrulandı; hesaba giriş yapılmadığı için yeni depo/yayın oluşturulmadı. Yayından sonra bu bölüme GitHub'ın gösterdiği gerçek canlı adresi ekleyin ve linkleri kontrol edin.
+6 Kasım 2026 tarihinde ana sayfa, ortak kaynaklar, proje filtresi, form ve indirme bağlantıları canlı ortamda kontrol edildi. Yayın kaydı belgeler/yayin.json dosyasındadır. Aşağıdaki yayın adımları aynı yapıyı yeniden kurmak içindir.
 
 ## Açma
 

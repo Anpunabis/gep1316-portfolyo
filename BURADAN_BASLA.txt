@@ -1,0 +1,15 @@
+Jahan Teymurlu - GEP1316 Ödev 2
+
+1. ZIP'i Tümünü ayıkla ile çıkarın.
+2. index.html dosyasını çift tıklayarak siteyi açın. Python gerekmez.
+3. RAPOR.pdf süreç belgesidir.
+4. Projeler sayfasında filtreleri ve üç tarayıcı demosunu deneyebilirsiniz.
+5. GitHub Pages yayını henüz yapılmadı. README.md içindeki yayın adımlarını
+   uygulayıp gerçek canlı bağlantıyı Teams teslimine eklemek gerekiyor.
+6. Dersin Ödev 1-6 çalışmalarının karşılığı ve kişisel öğrenme notları
+   kontrol edilmeli. Mevcut Unity depoları ders ödevi diye etiketlenmedi.
+7. PROMPTLAR.md geliştirme notlarını inceleyip kendi gerçek istemlerinizi
+   ve kararlarınızı ekleyin. Yansıtmayı da okuyup kontrol edin.
+
+Teslim adı: GEP1316_Odev2_JahanTeymurlu.zip
+PDF'deki son teslim: 22 Kasım 2026, 23:59 - Teams > Ödevler.

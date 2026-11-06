@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Jahan Teymurlu'nun dijital oyun tasarımı öğrenci portfolyosu. Python, etkileşimli anlatı ve oyun tasarımı denemeleri.">
+<meta name="color-scheme" content="light dark"><meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; form-action 'none'; object-src 'none'; base-uri 'self'">
+<title>İletişim · Jahan Teymurlu</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body><a class="skip" href="#icerik">İçeriğe geç</a><header class="site-header wrap">
+<a class="brand" href="index.html" aria-label="Jahan Teymurlu, ana sayfa"><span class="brand-symbol" aria-hidden="true">jt.</span><span>Jahan Teymurlu<small>Dijital Oyun Tasarımı</small></span></a>
+<div class="header-right"><nav id="main-nav" aria-label="Ana gezinti"><a href="index.html">Ana sayfa</a><a href="hakkimda.html">Hakkımda</a><a href="projeler.html">Projeler</a><a href="iletisim.html" aria-current="page">İletişim</a></nav>
+<button type="button" class="theme-toggle icon-button" aria-label="Karanlık temayı aç" aria-pressed="false"><span aria-hidden="true">◐</span></button>
+<button type="button" class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menü <span aria-hidden="true">☰</span></button></div></header>
+<main id="icerik" class="wrap" tabindex="-1"><section class="page-intro"><p class="eyebrow">03 / İLETİŞİM</p><h1>Bir fikirle<br><em>başlayabiliriz.</em></h1><p>Projeler hakkında bir not hazırlayın veya GitHub üzerinden çalışmalara göz atın.</p></section>
+<div class="contact-layout"><aside class="contact-aside"><h2>Çevrim içi.</h2><a class="social-row" href="https://github.com/Anpunabis" target="_blank" rel="noopener noreferrer"><span>GitHub<small>@Anpunabis</small></span><span aria-hidden="true">↗</span></a><p>Burada kişisel telefon veya adres paylaşmıyorum.</p><div class="note"><strong>Form nasıl çalışıyor?</strong><p>Bu statik sitede form bir mesaj taslağı hazırlar. Mesajı kimseye göndermez. Hazırladığınız metni kopyalayabilirsiniz.</p></div></aside>
+<section class="form-section" aria-labelledby="form-title"><h2 id="form-title">Mesaj taslağı</h2><form id="contact-form" novalidate>
+<div class="field"><label for="contact-name">Adınız <span>(zorunlu)</span></label><input id="contact-name" name="name" autocomplete="name" minlength="2" maxlength="60" required aria-describedby="name-error"><p class="field-error" id="name-error"></p></div>
+<div class="field"><label for="contact-email">E-posta <span>(zorunlu)</span></label><input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="email-error"><p class="field-error" id="email-error"></p></div>
+<div class="field"><label for="contact-message">Mesajınız <span>(10–1000 karakter)</span></label><textarea id="contact-message" name="message" rows="5" minlength="10" maxlength="1000" required aria-describedby="message-error message-counter"></textarea><div class="field-foot"><p class="field-error" id="message-error"></p><span id="message-counter">0 / 1000</span></div></div>
+<p class="privacy-note">Bilgiler yalnız bu sayfanın belleğinde işlenir; sunucuya gönderilmez ve kalıcı olarak saklanmaz. Hassas bilgi yazmayın. İzleyici ve üçüncü taraf betik kullanılmaz.</p>
+<button class="button" type="submit">Taslağı hazırla <span aria-hidden="true">↗</span></button><p id="form-status" role="status" aria-live="polite"></p>
+<section id="message-preview" class="message-preview" hidden aria-label="Hazırlanan mesaj"><h3>Taslağınız hazır.</h3><pre id="message-text"></pre><button type="button" id="copy-message" class="button secondary">Metni kopyala</button><p class="hint">Bu işlem mesajı göndermez.</p></section></form></section></div></main>
+<footer class="site-footer wrap"><a class="footer-name" href="index.html">Jahan Teymurlu<span>Dijital Oyun Tasarımı öğrencisi</span></a><div><a href="https://github.com/Anpunabis" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="iletisim.html">Bir mesaj hazırla ↗</a></div><p>2026 · GEP1316 öğrenci portfolyosu</p></footer>
+</body></html>

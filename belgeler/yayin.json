@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-06",
+  "url": "https://anpunabis.github.io/gep1316-portfolyo/",
+  "repository": "https://github.com/Anpunabis/gep1316-portfolyo",
+  "workflow": "https://github.com/Anpunabis/gep1316-portfolyo/actions/runs/42280007491",
+  "initialPublishedCommit": "8773a3a80cfff1da1533ebe5a4c4b846fb7a0852",
+  "status": "success",
+  "checks": [
+    {
+      "page": "hakkimda.html",
+      "heading": "Merakla başlayanbir çalışma alanı.",
+      "images": true,
+      "styles": 1,
+      "title": "Hakkımda · Jahan Teymurlu"
+    },
+    {
+      "page": "projeler.html",
+      "heading": "Küçük denemeler.Somut çıktılar.",
+      "images": true,
+      "styles": 1,
+      "title": "Projeler · Jahan Teymurlu"
+    },
+    {
+      "page": "iletisim.html",
+      "heading": "Bir fikirlebaşlayabiliriz.",
+      "images": true,
+      "styles": 1,
+      "title": "İletişim · Jahan Teymurlu"
+    },
+    {
+      "page": "projeler/oyun-atolyesi.html",
+      "heading": "Oyun Atölyesi.",
+      "images": true,
+      "styles": 1,
+      "title": "Oyun Atölyesi · Jahan Teymurlu"
+    },
+    {
+      "page": "projeler/ball-project.html",
+      "heading": "Ball Project",
+      "images": true,
+      "styles": 1,
+      "title": "Ball_Project · Jahan Teymurlu"
+    },
+    {
+      "page": "projeler/vfx-cargame.html",
+      "heading": "VFX CarGame",
+      "images": true,
+      "styles": 1,
+      "title": "VFX_CarGame · Jahan Teymurlu"
+    },
+    {
+      "page": "projeler/unity-denemesi.html",
+      "heading": "Some Github Project",
+      "images": true,
+      "styles": 1,
+      "title": "Some_Github_Project · Jahan Teymurlu"
+    },
+    {
+      "page": "projeler/son-sinyal.html",
+      "heading": "Son Sinyal.",
+      "images": true,
+      "styles": 1,
+      "title": "Son Sinyal · Jahan Teymurlu"
+    },
+    {
+      "page": "projeler/denge-laboratuvari.html",
+      "heading": "Denge Laboratuvarı.",
+      "images": true,
+      "styles": 1,
+      "title": "Denge Laboratuvarı · Jahan Teymurlu"
+    },
+    {
+      "page": "projeler/seviye-akisi.html",
+      "heading": "Bir seviyenin ritmi.",
+      "images": true,
+      "styles": 1,
+      "title": "Bir Seviyenin Ritmi · Jahan Teymurlu"
+    },
+    {
+      "page": "index.html",
+      "heading": "Tasarımdan koda,adım adım.",
+      "images": true,
+      "styles": 1,
+      "title": "Ana sayfa · Jahan Teymurlu"
+    }
+  ],
+  "filter": "Unity: 3, BÜTÇE: 1",
+  "form": "Boş ve geçerli form test edildi; yalnız taslak",
+  "download": "oyun-atolyesi.zip tarayıcıyla indirildi"
+}

@@ -47,7 +47,7 @@ Yerel sunucu kullanmak isterseniz bu klasörde `python -m http.server 8000` çal
 
 - `index.html`: Tanıtım, JT avatarı, seçilmiş projeler.
 - `hakkimda.html`: Eğitim, ilgi alanları, kodlama ve YZ'nin meslekteki yeri.
-- `projeler.html`: 7 kart, kategori filtresi, Türkçe arama, sonuç sayacı.
+- `projeler.html`: 9 kart, kategori filtresi, Türkçe arama, sonuç sayacı.
 - `iletisim.html`: Doğrulanan, erişilebilir mesaj taslağı formu ve GitHub profili.
 - `projeler/`: 7 proje ayrıntısı; üç yeni demo tarayıcıda çalışır.
 - `style.css` ve `script.js`: Ortak tasarım ve davranışlar. Harici bağımlılık yok.

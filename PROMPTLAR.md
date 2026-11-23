@@ -59,3 +59,8 @@ Aşağıdaki altı kayıt, ilk kullanıcı talebini yerine getirmek için izlene
 İlk mobil menü kodu yalnız aria-expanded ve görünürlüğü değiştiriyordu. Menü HTML'de düğmeden önceydi. Gerçek tarayıcı testinde menü açıldıktan sonra Tab basılınca odak menü yerine GitHub bağlantısına geçti (insideNav: false). Çözüm: açılışta navigation.querySelector('a')?.focus() çağrısı. Tekrar testinde insideNav: true ve odak “Ana sayfa” oldu. Escape menüyü kapatıp odağı düğmeye döndürdü. Hatayı asistan tespit etti ve düzeltti.
 
 Ek gizlilik incelemesi: formda action olmaması, JS çalışmazsa varsayılan GET gönderiminde alanların URL'ye taşınması riskini oluşturuyordu. CSP'ye form-action 'none' eklenerek normal gönderim engellendi. Bu ikinci düzeltme kaynak incelemesine dayanır; JS kapalı ayrı bir test yapıldığı iddia edilmez.
+
+
+## 23 Kasım 2026 Haftalık çalışmalar
+
+Ödev 2 ve Ödev 3 için çalışma istemleri, test kararları ve YZ beyanı: [Haftalık prompt günlüğü](haftalik/PROMPTLAR.md).

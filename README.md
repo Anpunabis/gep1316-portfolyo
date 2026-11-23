@@ -2,6 +2,32 @@
 
 Dijital Oyun Tasarımı · GEP1316 · Ara Değerlendirme Ödevi 2
 
+## Jahan Teymurlu hakkında
+
+Ben Jahan Teymurlu, Dijital Oyun Tasarımı öğrencisiyim. Bu depoda GEP1316 çalışmaları ve oyun tasarımıyla ilgili örnekler yer alıyor.
+
+- Bölüm: Dijital Oyun Tasarımı
+- Çalışma alanları: oyun mekanikleri, etkileşimli anlatı, Python ve web
+- Ders beklentisi: mevcut kodlama bilgisini test, belgeleme ve kaynak paylaşımıyla geliştirmek
+- [GitHub profilim](https://github.com/Anpunabis)
+
+## Kodlama ve YZ'nin mesleğimdeki yeri
+
+Dijital Oyun Tasarımı alanında kodlama, bir oyun fikrinin kurallarını denemek ve tasarım kararlarının sonucunu görmek için kullanılabilir. Hareket, hasar, süre ve puan gibi değerleri küçük programlarla hesaplamak, bir sistemi daha anlaşılır hale getirir. Kodlama bilgim önceden de vardı; bu dersten beklentim bu bilgiyi düzenli çalışma, test ve belgeleme alışkanlığıyla geliştirmek. Yapay zekâyı örnek kod hazırlamak, anlamadığım satırları açıklatmak ve farklı çözüm yollarını karşılaştırmak için kullanabilirim. Bunun yanında üretilen sonucu kontrol etmek, kullanılan formülün varsayımlarını belirtmek ve hatalı girdileri denemek gerekir. GitHub ise kaynak kodu, açıklamayı ve değişiklik geçmişini birlikte paylaşmamı sağlar. Mesleğimde bu becerilerden oyun dengesi hesapları, küçük prototipler ve ekip içinde iş takibi için yararlanmak isterim. Bir aracın çalışması kadar, başka birinin onu nasıl açacağını ve sınırlarını anlayabilmesi de önemlidir.
+
+## Haftalık Ödev 2 ve Ödev 3
+
+- [merhaba.py](merhaba.py): ad ve doğum yılıyla kişiye özel karşılama.
+- [hesaplayici.py](hesaplayici.py): hedef canı, vuruş hasarı ve aralığıyla oyun dengesi hesabı.
+- [Haftalık çalışma belgeleri](haftalik/README.md)
+
+```sh
+python merhaba.py
+python hesaplayici.py
+```
+
+Python 3.10+ yeterlidir; ek paket gerekmez. Karşılama hesabı yalnız doğum yılını kullanır; doğum günü bilinmediği için yıl içinde doldurulacak yaşı verir. Hesaplayıcıda ilk vuruş 0. saniyede kabul edilir. Kod ve teknik testler OpenAI Codex desteğiyle hazırlanmıştır; kişisel veri kullanılmaz.
+
 ## Yayın durumu
 
 **GitHub Pages yayını tamamlandı ve canlı site tarayıcıda doğrulandı.**

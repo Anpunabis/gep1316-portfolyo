@@ -1,0 +1,204 @@
+{
+  "year": 2026,
+  "age": [
+    {
+      "title": "Normal",
+      "inputs": [
+        "Deniz",
+        "2006"
+      ],
+      "expected": "2026 yılında 20 yaşını dolduruyorsun.",
+      "actual": "Adınız: Doğum yılınız: Merhaba Deniz! Oyun atölyeme hoş geldin.\n2026 yılında 20 yaşını dolduruyorsun.\nBu hesap yalnız doğum yılına göre yapılmıştır.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "İçinde bulunulan yıl",
+      "inputs": [
+        "Ada",
+        "2026"
+      ],
+      "expected": "2026 yılında 0 yaşını dolduruyorsun.",
+      "actual": "Adınız: Doğum yılınız: Merhaba Ada! Oyun atölyeme hoş geldin.\n2026 yılında 0 yaşını dolduruyorsun.\nBu hesap yalnız doğum yılına göre yapılmıştır.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Gelecek yıl",
+      "inputs": [
+        "Test",
+        "2027"
+      ],
+      "expected": "Doğum yılı gelecekte olamaz.",
+      "actual": "Adınız: Doğum yılınız: Uyarı: Doğum yılı gelecekte olamaz.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Sıfır yılı",
+      "inputs": [
+        "Test",
+        "0"
+      ],
+      "expected": "Doğum yılı en az 1 olmalı.",
+      "actual": "Adınız: Doğum yılınız: Uyarı: Doğum yılı en az 1 olmalı.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Sayısal olmayan yıl",
+      "inputs": [
+        "Test",
+        "abc"
+      ],
+      "expected": "Uyarı:",
+      "actual": "Adınız: Doğum yılınız: Uyarı: invalid literal for int() with base 10: 'abc'\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Boş ad",
+      "inputs": [
+        "",
+        "2000"
+      ],
+      "expected": "Adınızı 2-60 karakter arasında yazın.",
+      "actual": "Adınız: Uyarı: Adınızı 2-60 karakter arasında yazın.\n",
+      "status": "Geçti"
+    }
+  ],
+  "calculator": [
+    {
+      "title": "Normal",
+      "inputs": [
+        "Kâşif",
+        "100",
+        "20",
+        "0.5"
+      ],
+      "expected": "Gerekli vuruş: 5; 2.00 saniye",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): \nKâşif için saldırı özeti\nGerekli vuruş: 5\nHedefi yenme süresi: 2.00 saniye\nSaniye başına hasar: 40.00\nTek vuruşta yenilir mi: Hayır\nVarsayım: İlk vuruş 0. saniyede; zırh ve ıskalama yok.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Tam bölünmeyen can",
+      "inputs": [
+        "Kâşif",
+        "100",
+        "30",
+        "0,5"
+      ],
+      "expected": "Gerekli vuruş: 4; 1.50 saniye",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): \nKâşif için saldırı özeti\nGerekli vuruş: 4\nHedefi yenme süresi: 1.50 saniye\nSaniye başına hasar: 60.00\nTek vuruşta yenilir mi: Hayır\nVarsayım: İlk vuruş 0. saniyede; zırh ve ıskalama yok.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Tek vuruş",
+      "inputs": [
+        "Kâşif",
+        "20",
+        "30",
+        "0.5"
+      ],
+      "expected": "Gerekli vuruş: 1; 0.00 saniye",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): \nKâşif için saldırı özeti\nGerekli vuruş: 1\nHedefi yenme süresi: 0.00 saniye\nSaniye başına hasar: 60.00\nTek vuruşta yenilir mi: Evet\nVarsayım: İlk vuruş 0. saniyede; zırh ve ıskalama yok.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Sıfır hasar",
+      "inputs": [
+        "Kâşif",
+        "100",
+        "0",
+        "0.5"
+      ],
+      "expected": "Uyarı:; Vuruş hasarı",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): Uyarı: Vuruş hasarı 1-1000000 arasında olmalı.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Negatif can",
+      "inputs": [
+        "Kâşif",
+        "-1",
+        "20",
+        "0.5"
+      ],
+      "expected": "Uyarı:; Hedef canı",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): Uyarı: Hedef canı 1-1000000 arasında olmalı.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Sıfır aralık",
+      "inputs": [
+        "Kâşif",
+        "100",
+        "20",
+        "0"
+      ],
+      "expected": "Uyarı:; Vuruş aralığı",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): Uyarı: Vuruş aralığı 0'dan büyük, en fazla 60 sn olmalı.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Sonsuz aralık",
+      "inputs": [
+        "Kâşif",
+        "100",
+        "20",
+        "inf"
+      ],
+      "expected": "Uyarı:; Vuruş aralığı",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): Uyarı: Vuruş aralığı 0'dan büyük, en fazla 60 sn olmalı.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "NaN aralık",
+      "inputs": [
+        "Kâşif",
+        "100",
+        "20",
+        "nan"
+      ],
+      "expected": "Uyarı:; Vuruş aralığı",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): Uyarı: Vuruş aralığı 0'dan büyük, en fazla 60 sn olmalı.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Büyük geçerli değer",
+      "inputs": [
+        "Kâşif",
+        "1000000",
+        "1",
+        "60"
+      ],
+      "expected": "Gerekli vuruş: 1000000; 59999940.00 saniye",
+      "actual": "Karakter adı: Hedef canı: Vuruş başına hasar: Vuruş aralığı (saniye): \nKâşif için saldırı özeti\nGerekli vuruş: 1000000\nHedefi yenme süresi: 59999940.00 saniye\nSaniye başına hasar: 0.02\nTek vuruşta yenilir mi: Hayır\nVarsayım: İlk vuruş 0. saniyede; zırh ve ıskalama yok.\n",
+      "status": "Geçti"
+    },
+    {
+      "title": "Sayı olmayan girdi",
+      "inputs": [
+        "Kâşif",
+        "yüz"
+      ],
+      "expected": "Uyarı:; Uyarı:",
+      "actual": "Karakter adı: Hedef canı: Uyarı: invalid literal for int() with base 10: 'yüz'\n",
+      "status": "Geçti"
+    }
+  ],
+  "bug": {
+    "inputs": [
+      100,
+      30,
+      0.5
+    ],
+    "expected": [
+      4,
+      1.5
+    ],
+    "buggy": [
+      3,
+      1.0
+    ],
+    "fixed": [
+      4,
+      1.5
+    ]
+  }
+}
